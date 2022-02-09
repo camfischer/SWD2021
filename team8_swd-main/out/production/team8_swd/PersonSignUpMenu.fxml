@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="632.0" prefWidth="826.0" style="-fx-background-color: #3EB489;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.PersonSignUpController">
+   <children>
+      <Button fx:id="signUpButton" layoutX="583.0" layoutY="287.0" mnemonicParsing="false" onAction="#signUpButtonPressed" prefHeight="52.0" prefWidth="165.0" style="-fx-background-color: linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),        linear-gradient(#020b02, #3a3a3a),        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);" text="Sign Up" />
+      <TextField fx:id="dateTest" layoutX="562.0" layoutY="572.0" style="-fx-border-style: solid;" />
+      <Text fx:id="displayTextDate" layoutX="527.0" layoutY="557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Date of last test (YYYY-MM-DD)" />
+      <TextField fx:id="usernameText" layoutX="328.0" layoutY="87.0" prefHeight="26.0" prefWidth="171.0" style="-fx-border-style: solid;" />
+      <Text layoutX="373.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="80.0" />
+      <Text layoutX="373.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="80.0" />
+      <TextField fx:id="passwordText" layoutX="328.0" layoutY="151.0" style="-fx-border-style: solid;" />
+      <Text layoutX="393.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="40.0" />
+      <TextField fx:id="emailText" layoutX="328.0" layoutY="212.0" style="-fx-border-style: solid;" />
+      <Text layoutX="361.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number" wrappingWidth="120.0" />
+      <TextField fx:id="phoneNumString" layoutX="328.0" layoutY="266.0" style="-fx-border-style: solid;" />
+      <Text layoutX="303.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profile Picture (Select from Below)" />
+      <ChoiceBox fx:id="vaccinationChoice" layoutX="338.0" layoutY="508.0" prefWidth="150.0" style="-fx-border-style: solid; -fx-background-color: linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),        linear-gradient(#020b02, #3a3a3a),        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);" />
+      <Text layoutX="376.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vaccinated" />
+      <TextArea fx:id="errorText" layoutX="65.0" layoutY="64.0" prefHeight="457.0" prefWidth="200.0" style="-fx-border-style: solid;" />
+      <TextField fx:id="vaccineImageURL" layoutX="328.0" layoutY="450.0" style="-fx-border-style: solid;" />
+      <Text layoutX="331.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vaccine Card (Enter URL)" />
+      <ChoiceBox fx:id="testedBox" layoutX="338.0" layoutY="572.0" prefWidth="150.0" style="-fx-border-style: solid; -fx-background-color: linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),        linear-gradient(#020b02, #3a3a3a),        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);" />
+      <Text layoutX="309.0" layoutY="557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Have you recently been tested?" />
+      <ChoiceBox fx:id="profilePictureBox" layoutX="338.0" layoutY="325.0" prefWidth="150.0" style="-fx-border-style: solid; -fx-background-color: linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),        linear-gradient(#020b02, #3a3a3a),        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);" />
+      <Text layoutX="366.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID (Enter URL)" />
+      <TextField fx:id="iDurl" layoutX="327.0" layoutY="387.0" style="-fx-border-style: solid;" />
+      <TextField fx:id="nameText" layoutX="327.0" layoutY="30.0" style="-fx-border-style: solid;" />
+      <Text layoutX="393.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+   </children>
+</AnchorPane>

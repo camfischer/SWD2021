@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="619.0" prefWidth="808.0" style="-fx-background-color: #3EB489;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.PersonMenuController">
+    <children>
+        <Label layoutX="64.0" layoutY="14.0" prefHeight="45.0" prefWidth="145.0" text="Search for Organization below:" wrapText="true" />
+        <TextField fx:id="searchField" layoutX="64.0" layoutY="58.0" prefHeight="26.0" prefWidth="134.0" style="-fx-border-style: solid;" />
+        <Button fx:id="searchButton" layoutX="137.0" layoutY="153.0" mnemonicParsing="false" onAction="#searchButtonPressed" prefHeight="26.0" prefWidth="90.0" style="-fx-background-color: linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),        linear-gradient(#020b02, #3a3a3a),        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);" text="Search" />
+        <ChoiceBox fx:id="searchBox" layoutX="64.0" layoutY="118.0" prefHeight="26.0" prefWidth="236.0" style="-fx-background-color: linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),        linear-gradient(#020b02, #3a3a3a),        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);" />
+        <Label layoutX="64.0" layoutY="95.0" text="What are you searching by?" />
+        <ChoiceBox fx:id="displayField" layoutX="56.0" layoutY="292.0" prefHeight="16.0" prefWidth="236.0" style="-fx-background-color: linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),        linear-gradient(#020b02, #3a3a3a),        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);" />
+        <Label layoutX="56.0" layoutY="255.0" text="Organizations that match search:" />
+        <Button fx:id="displayButton" layoutX="127.0" layoutY="343.0" mnemonicParsing="false" onAction="#displayButtonPressed" style="-fx-background-color: linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),        linear-gradient(#020b02, #3a3a3a),        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);" text="Display Info" />
+        <Label layoutX="547.0" layoutY="29.0" text="Username:" />
+        <TextField fx:id="usernameField" layoutX="547.0" layoutY="58.0" style="-fx-border-style: solid;" />
+        <Label layoutX="547.0" layoutY="110.0" text="Name:" />
+        <TextField fx:id="nameField" layoutX="547.0" layoutY="131.0" style="-fx-border-style: solid;" />
+        <Label layoutX="548.0" layoutY="179.0" text="Email:" />
+        <TextField fx:id="emailField" layoutX="547.0" layoutY="204.0" style="-fx-border-style: solid;" />
+        <Label layoutX="547.0" layoutY="247.0" text="Phone Number:" />
+        <TextField fx:id="phoneField" layoutX="547.0" layoutY="271.0" style="-fx-border-style: solid;" />
+        <Label layoutX="547.0" layoutY="318.0" text="Vaccine Required:" />
+        <TextField fx:id="vaxField" layoutX="543.0" layoutY="343.0" style="-fx-border-style: solid;" />
+        <ImageView fx:id="profilePic" fitHeight="150.0" fitWidth="200.0" layoutX="174.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true" />
+        <Label layoutX="56.0" layoutY="433.0" text="Profile Picture:" />
+      <Text layoutX="547.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mask Required:" />
+      <TextField fx:id="MaskRequired" layoutX="543.0" layoutY="415.0" style="-fx-border-style: solid;" />
+      <Text layoutX="547.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test Required" />
+      <TextField fx:id="TestRequired" layoutX="543.0" layoutY="482.0" style="-fx-border-style: solid;" />
+      <Button fx:id="updateButton" layoutX="349.0" layoutY="250.0" mnemonicParsing="false" onAction="#updateButtonPressed" style="-fx-background-color: linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),        linear-gradient(#020b02, #3a3a3a),        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);" text="Update Profile" />
+    </children>
+</AnchorPane>
