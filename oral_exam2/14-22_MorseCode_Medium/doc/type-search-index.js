@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"EnglishToMorse"},{"p":"<Unnamed>","l":"MorseCodeMain"},{"p":"<Unnamed>","l":"MorseToEnglish"}]
